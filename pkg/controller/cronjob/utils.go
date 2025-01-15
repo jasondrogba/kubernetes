@@ -272,7 +272,7 @@ func getJobFromTemplate2(cj *batchv1.CronJob, scheduledTime time.Time) (*batchv1
 	return job, nil
 }
 
-// getTimeHash returns Unix Epoch Time in minutes
+// getTimeHash returns Unix Epoch Time in minutessssss
 func getTimeHashInMinutes(scheduledTime time.Time) int64 {
 	return scheduledTime.Unix() / 60
 }
